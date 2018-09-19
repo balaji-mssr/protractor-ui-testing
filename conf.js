@@ -5,7 +5,7 @@ require("babel-register")({
 
 exports.config = {
     
-    /directConnect: true,
+    directConnect: true,
 
     specs: ['specs/searchProgrammeSpec.js'],
     baseUrl: 'https://www.bbc.co.uk/',
